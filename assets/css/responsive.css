@@ -1,0 +1,49 @@
+@media only screen and (max-width: 768px) {
+    #hero_header nav .nav-item .nav-link {
+        position: none;
+        transition: none;
+    }
+    #hero_header nav .nav-item .nav-link::before {
+        display: none;
+    }
+}
+@media only screen and (max-width: 525px) {
+    .main-title h2 span {
+        font-size: 1rem;
+        margin-top: -20px!important;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .timeline-icon {
+        position: absolute;
+        left: -4px!important;
+        top: 0!important;
+        width: 30px!important;
+        height: 30px!important;
+        border: 1px solid #d4f36530;
+        border-radius: 50%;
+        display: flex!important;
+        justify-content: center!important;
+        align-items: center;
+        box-shadow: 4px 3px 56px -5px #343432;
+        z-index: 1;
+    }
+    .timeline-icon i {
+        justify-content: center!important;
+        align-items: center!important;
+        font-size: .8rem!important;
+        color: #d5f365;
+        transform: translate(-50%, -50%)!important;
+        padding-bottom: 5px!important;
+        margin-bottom: 5px!important;
+    }
+    .experience-education h2 {
+        font-size: 1.3rem!important;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .title .sm-title h2{
+        font-size: 1.5rem!important;
+    }
+}
+

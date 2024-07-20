@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom css and JavaScript -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/carousel.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/carousel.js"></script>
+    <!-- Bootstrap Css And JS -->
+    <link rel="stylesheet" href="./vender/bootstrap/css/bootstrap.min.css">
+    <script src="./vender/bootstrap/js/bootstrap.min.js"></script>
+    <title>Abu Huzaifa Portfolio</title>
+</head>
+<body>
+    <!-- header \start{code} -->
+    <header id="hero_header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><span>Abu Huzaifa</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="ri-menu-2-line"></i>
+                </button>
+                
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 gap-lg-4 gap-0 mb-lg-0 py-0 py-xl-3">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education & Experience </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header \end{code} -->
+    <div class="py-5 bg-color"> </div>
+    <!-- hone slider \start{code} -->
+    <section class="m-0 pt-0 bg-color" id="home">
+        <div class="container border-bottom">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="mb-5 main-title">
+                        <h2 class="mb-3">I'm Abu Huzaifa </br> <span>Web And Graphic Designer</span></h2>
+                        <p class="lead mb-0">
+                            I specialize in creating visually compelling, user-friendly designs. With expertise in responsive websites and engaging graphics, I transform ideas into captivating digital experiences that elevate brands and drive engagement.
+                        </p>
+                    </div>
+                    <a href="#" class="main-btn">More About Me</a>
+                </div>
+                <div class="col-lg-6">
+                    <figure>
+                        <div class="img-border">
+                            <img src="./assets/images/backgrounds/abu-huzaifa.png" alt="abu-huzaifa" class="img-fluid rounded-10" />
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hone slider \end{code}--------------------------------------------- -->
+    <!-- aBOUT mE \stRT{code} ----------------------------------------------->
+    <section class="about_me py-5 mt-5"  id="about">
+        <div class="container border-bottom pb-5">
+            <div class="title pb-5">
+                <div class="big-title text-center"><span>About ME</span></div>
+                <div class="sm-title">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-12 col-md-12 col-xl-6">
+                    <div class="title"><h4>Personal Information</h4></div>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="personal-info">
+                                <ul class="pt-3">
+                                    <li class="mb-1"><span>Name:</span> Abu Huzaifa</li>
+                                    <li class="mb-1"><span>Age:</span> 21 Year</li>
+                                    <li class="mb-1"><span>Email:</span>
+                                        <a href="#" class="email-link" onclick="copyEmail(event)">abuhuzaifaw7@gmail.com</a>
+                                        <div id="popup" class="popup">Email copied!</div>
+                                    </li>
+                                    <li class="mb-1"><span>Phone:</span>
+                                        <a href="#" class="phone-link" onclick="copyPhoneNumber(event)">+91 6387869214</a>
+                                        <div id="phonePopup" class="popup">Phone number copied!</div>
+                                    </li>
+                                    <li class="mb-1"><span>Current Address:</span>  B-Block Jamia Nagar Okhla, New Delhi 110025, India</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="personal-info">
+                                <ul class="pt-3">
+                                    <li class="mb-1"><span class="pr-1">Nationationty >:</span> Indian</li>
+                                    <li class="mb-1"><span class="pr-1">State: </span>Uttar Pradesh</li>
+                                    <li class="mb-1"><span class="pr-1">District: </span>Barabanki</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-xl-6">
+                    <div class="row">
+                        <div class="col-md-6 col-12 py-2">
+                            <div class="ex-card">
+                                <div class="card-body">
+                                    <h2 id="experienceYears">1<sup>+</sup></h2>
+                                    <h4>Year of Experience</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 py-2">
+                            <div class="ex-card">
+                                <div class="card-body">
+                                    <h2 id="">12<sup>+</sup></h2>
+                                    <h4>Complete Projects</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 py-2">
+                            <div class="ex-card">
+                                <div class="card-body">
+                                    <h2 id="">8<sup>+</sup></h2>
+                                    <h4>Happy Clients</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 py-2">
+                            <div class="ex-card">
+                                <div class="card-body">
+                                    <h2 id="">4.5</h2>
+                                    <h4>Positive Rating</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-5" id="skills">
+                <div class="sub-title">
+                    <h3 class="prot-title text-left"><span>#</span>Skills</h3>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4 col-xl-4 col-12 py-2">
+                            <div class="py-3 prog-head">
+                                <h4>#1 HTML</h4>
+                            </div>
+                            <div class="py-3 prog-head">
+                                <h4>#2 CSS</h4>
+                            </div>
+                            <div class="py-3 prog-head">
+                                <h4>#3 Bootstrap</h4>
+                            </div>
+                            <div class="py-3 prog-head">
+                                <h4>#3 PHP Basics</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xl-4 col-12 py-2">
+                            <div class="py-3 prog-head">
+                                <h4>#4 JavaScript</h4>
+                            </div>
+                            <div class="py-3 prog-head">
+                                <h4>#5 Illustrator</h4>
+                            </div>
+                            <div class="py-3 prog-head">
+                                <h4>#6 CorelDRAW</h4>
+                            </div>
+                            <div class="py-3 prog-head">
+                                <h4>#6 Laravel Basics</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xl-4 col-12 py-2">
+                            <div class="py-3 prog-head">
+                                <h4>#7 Canva</h4>
+                            </div>
+                            <div class="py-3 prog-head">
+                                <h4>#8 MS Office <small>MS Word, Ms Excel</small></h4>
+                            </div>
+                            <div class="py-3 prog-head">
+                                <h4>#1 Seo Basics and Ai ChatGPT</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <button class="main-btn mt-md-5 mt-2" onclick="showPopup()"><em>Download CV</em></button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- abut me \end{code}--------------------------------------------- -->
+    <section class="experience-education" id="education">
+        <div class="container border-bottom">
+            <div class="row">
+                <div class="col-md-12 col-xl-8 mx-auto">
+                    <div class="title pb-5 ">
+                        <h2><span>Education & Experience</span></h2>
+                        <p><em>"Hello, I'm Abu Huzaifa, a frontend designer with one year of experience. I'm highly motivated and adept at creating visually attractive and user-friendly websites. My skills include Bootstrap, HTML, CSS, and JavaScript for responsive design. I also have experience in graphic design, ensuring cohesive visual identities across digital platforms."</em></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><span><i class="ri-code-s-slash-fill"></i></span></div>
+                        <div class="timeline-content">
+                            <span>2024 - Present</span>
+                            <h3>Web Designing <strong>→</strong> RS Top Coder Software Solution Company</h3>
+                            <p>Experienced web designer specializing in creating innovative designs at RS Top Coder Software Solution Company.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><span><i class="ri-quill-pen-fill"></i></span></div>
+                        <div class="timeline-content">
+                            <span>2024</span>
+                            <h3>Graphic Designing<strong>→</strong> RS Top Coder Software Solution Company</h3>
+                            <p>Experienced in web and graphic design, creating innovative solutions at RS Top Coder Software Solution Company.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><span><i class="ri-bank-fill"></i></span></div>
+                        <div class="timeline-content">
+                            <span>2022-2023</span>
+                            <h3>One Year Diploma <em>( CABA-MDTP )</em> At <strong>→</strong>National Institute of Electronics & Information Technology <em>( NIELIT)</em> </h3>
+                            <p>
+                                This CABA-MDTP one year Certificate course has been designed for transformation of Urdu
+                                speakers into productive human resources and making them part of the Employable
+                                Technological Work Force in the Emerging IT scenario and penetration of Computer
+                                Education to grass root level. The course contents have been enriched with
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><span><i class="ri-graduation-cap-line"></i></span></div>
+                        <div class="timeline-content">
+                            <span>2020-2023</span>
+                            <h3>Bachelor of Art in Geography, Sociology <em>( B.A )</em><strong>→</strong>Dr. Ram Manohar Lohia Avadh University, Ayodhya</h3>
+                            <p>
+                                Completed a Bachelor of Arts degree in Geography and Sociology with a strong focus on
+                                human geography, urban studies, and research methodologies. Developed a comprehensive
+                                understanding of how societies are organized spatially and how human behavior influences
+                                and is influenced by the physical environment.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><span><i class="ri-school-fill"></i></span></div>
+                        <div class="timeline-content">
+                            <span>2018-2020</span>
+                            <h3>Intermediate <strong>→</strong> B.P Verma Inter Collage</h3>
+                            <p>"Intermediate education program offered at B.P. Verma Inter College."</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><span><i class="ri-school-fill"></i></span></div>
+                        <div class="timeline-content">
+                            <span>2016 - 2018</span>
+                            <h3>High School<strong>→</strong>Janta Inter Collage U.P Board</h3>
+                            <p>High school education program accredited by the U.P. Board at Janta Inter College.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Portfolio start-->
+    <section class="py-5" id="portfolio">
+        <div class="container border-bottom pb-5">
+            <div class="row">
+                <div class="col-xl-12 mx-auto col-md-12">
+                    <div class=" mb-5">
+                        <div class="title text-center pb-5">
+                            <h2><span>Portfolio</span></h2>
+                            <p><em>Explore my portfolio, featuring creative web and graphic designs. I specialize in crafting responsive websites, engaging graphics, and intuitive interfaces, blending aesthetics with functionality to deliver exceptional digital experiences.</em></p>
+                            
+                        </div>
+                        <div class="sub-title">
+                            <h3 class="prot-title text-left"><span>#1</span> Web Designing</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pb-5">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <div class="portfolio-item border-bottom">
+                                <img src="./assets/images/backgrounds/abuhuzaifaw7-github-io-demo-repo-.jpg" alt="portfolio" class="img-fluid">
+                                <div class="d-flex row justify-content-between py-4">
+                                    <div class="col-12"><p class="px-2">Web template design in <strong>HTML, CSS, JavaScript and Bootstrap</strong> </p></div>
+                                    <div class="col-12 mt-3">
+                                        <a href="https://abuhuzaifaw7.github.io/demo-repo/" target="_blank" class="main-btn-sm mx-2"><i class="fa fa-eye" aria-hidden="true"></i> View Template</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <div class="portfolio-item border-bottom">
+                                <img src="./assets/images/backgrounds/abuhuzaifaw7-github-io-web-site-.jpg" alt="portfolio" class="img-fluid">
+                                <div class="d-flex row justify-content-between py-4">
+                                    <div class="col-12"><p class="px-2">Web template design in <strong>HTML, CSS, JavaScript and Bootstrap</strong> </p></div>
+                                    <div class="col-12 mt-3">
+                                        <a href="https://abuhuzaifaw7.github.io/demo-repo/" target="_blank" class="main-btn-sm mx-2"><i class="fa fa-eye" aria-hidden="true"></i> View Template</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="sub-title py-2">
+                    <h3 class="prot-title text-left"><span>#2</span> Graphic designs</h3>
+                </div>
+            </div>
+            <div class="row gap-0 mx-auto">
+                <div class="col-md-4 mb-4">
+                    <div class="card pb-2">
+                        <img src="./assets/images/backgrounds/3.jpg">
+                        <div class="d-flex row justify-content-between py-4">
+                            <div class="col-12"><p class="px-2">Food delivery app design in Illustrator</p></div>
+                            <div class="col-12 mt-3">
+                                <a href="./assets/images/backgrounds/food delivery-3.jpg" target="_blank" class="main-btn-sm mx-2 w-100"><i class="fa fa-eye" aria-hidden="true"></i> View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card pb-2">
+                        <img src="./assets/images/backgrounds/1.jpg">
+                        <div class="d-flex row justify-content-between py-4">
+                            <div class="col-12"><p class="px-2">Social Media Post design in Illustrator </p></div>
+                            <div class="col-12 mt-3">
+                                <a href="./assets/images/backgrounds/xl (2).jpg" target="_blank" class="main-btn-sm mx-2"><i class="fa fa-eye" aria-hidden="true"></i> View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card pb-2">
+                        <img src="./assets/images/backgrounds/2.jpg">
+                        <div class="d-flex row justify-content-between py-4">
+                            <div class="col-12"><p class="px-2">Social Media Post design in Illustrator </p></div>
+                            <div class="col-12 mt-3">
+                                <a href="./assets/images/backgrounds/xl (1).jpg" target="_blank" class="main-btn-sm mx-2"><i class="fa fa-eye" aria-hidden="true"></i> View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card pb-2">
+                        <img src="./assets/images/backgrounds/4.jpg">
+                        <div class="d-flex row justify-content-between py-4">
+                            <div class="col-12"><p class="px-2">Social Media Post design in Illustrator </p></div>
+                            <div class="col-12 mt-3">
+                                <a href="./assets/images/backgrounds/xl (4).jpg" target="_blank" class="main-btn-sm mx-2"><i class="fa fa-eye" aria-hidden="true"></i> View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card pb-2">
+                        <img src="./assets/images/backgrounds/5.jpg">
+                        <div class="d-flex row justify-content-between py-4">
+                            <div class="col-12"><p class="px-2">Social Media Post design in Illustrator </p></div>
+                            <div class="col-12 mt-3">
+                                <a href="./assets/images/backgrounds/xl (3).jpg" target="_blank" class="main-btn-sm mx-2"><i class="fa fa-eye" aria-hidden="true"></i> View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card pb-2">
+                        <img src="./assets/images/backgrounds/6.jpg">
+                        <div class="d-flex row justify-content-between py-4">
+                            <div class="col-12"><p class="px-2">Social Media Post design in Illustrator </p></div>
+                            <div class="col-12 mt-3">
+                                <a href="./assets/images/backgrounds/xl (5).jpg" target="_blank" class="main-btn-sm mx-2"><i class="fa fa-eye" aria-hidden="true"></i> View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--Portfolio end-->
+
+    <!--Working together start-->
+    <section class="py-5" id="contact">
+        <div class="container border-bottom py-y">
+            <div class="title pb-5">
+                <div class="big-title text-center"><span>Contact US</span></div>
+                <div class="sm-title">
+                    <h2>Contact us</h2>
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-lg-10 offset-lg-1 col-md-12">
+                    <div class="row g-lg-10 gy-5 align-items-center">
+                        <div class="col-md-6">
+                            <div class="card bg-yellow">
+                                <div class="card-body p-5">
+                                    <h3 class="mb-4 forn-title">Interested in working together? Let’s talk. Just Say Hi!</h3>
+                                    <form class="needs-validation" novalidate>
+                                        <div class="mb-3">
+                                            <label for="YourNameInput" class="form-label">What’s your name</label>
+                                            <input type="text" class="form-control" id="YourNameInput" placeholder="Name" required="" />
+                                            <div class="invalid-feedback">Please enter yourname.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="yourEmailInput" class="form-label">Email Address</label>
+                                            <input type="email" class="form-control" id="yourEmailInput" placeholder="Email" required="" />
+                                            <div class="invalid-feedback">Please enter email.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="messageTextarea" class="form-label">Describe your project</label>
+                                            <textarea class="form-control" id="messageTextarea" placeholder="Write the information about your project." rows="4" required></textarea>
+                                            <div class="invalid-feedback">Please enter a message.</div>
+                                        </div>
+                                        <div class="d-flex justify-content-end">
+                                            <button class="main-btn-sm" type="submit"><i class="ri-send-plane-fill"></i> Contact me</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 px-md-5 px-3 ttt">
+                            <div class="">
+                                <div class="mb-3">
+                                    <img src="./assets/images/backgrounds/avtar.png" height="80px" alt="avatar" class="avatar avatar-xl rounded-circle" />
+                                </div>
+
+                                <h3 class="mb-0">Abu Huzafa</h3>
+                                <small class="mb-3">Web and Graphic Designer at RS Top Coder</small>
+                            </div>
+                            <div class="d-flex my-4">
+                                <div class="content-icone">
+                                    <i class="ri-map-pin-line"></i>
+                                </div>
+                                <div class="ms-2">
+                                    <h5 class="mb-0">Address:</h5>
+                                    <small>B-Block Jamia Nagar Okhla, New Delhi 110025, India</small>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-4">
+                                <div>
+                                    <div class="content-icone">
+                                        <i class="ri-phone-line"></i>
+                                    </div>
+                                </div>
+                                <div class="ms-2">
+                                    <h5 class="mb-0">Phone:</h5>
+                                    <small>
+                                        <a href="#" class="phone-link" onclick="copyPhoneNumber(event)">+91 6387869214</a>
+                                        <div id="phonePopup" class="popup">Phone number copied!</div>
+                                    </small>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-4">
+                                <div>
+                                    <div class="content-icone">
+                                        <i class="ri-mail-check-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="ms-2">
+                                    <h5 class="mb-0">E-mail:</h5>
+
+                                    <small>
+                                        <a href="#!" class="email-link" onclick="copyEmail(event)">abuhuzaifaw7@gmail.com</a>
+                                        <div id="popup" class="popup">Email copied!</div>
+                                    </small>
+                                </div>
+                            </div>
+                            <div class="icon-container">
+                                <a href="#!" class="btn-instagram btn-icon">
+                                    <i class="ri-instagram-line"></i>
+                                </a>
+                                <a href="https://x.com/mr_huzaifa41?s=09" class="btn-twitter btn-icon">
+                                    <i class="ri-twitter-x-fill"></i>
+                                </a>
+                                <a href="https://www.facebook.com/huzaifa.maliq.5?mibextid=ZbWKwL" target="_blank" class="btn-facebook btn-icon">
+                                    <i class="ri-facebook-circle-fill"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/abuhuzaifa-w7/" class="btn-linkedin btn-icon">
+                                    <i class="ri-linkedin-box-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Working together end-->
+    <footer class="bg-body-tertiary text-center ">
+        <!-- Grid container -->
+        <div class="container pt-5">
+            <button class="main-btn" onclick="showPopup()"><em>Download CV</em></button>
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-3">
+            © 2024 Copyright:
+            <a class="text-body" href="#">Abu Huzaifa</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    
+    
+</body>
+</html>
